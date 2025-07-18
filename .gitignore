@@ -1,0 +1,11 @@
+# Ignore all image files (in any 'images' folder')
+**/images/
+
+# Ignore node_modules folders
+node_modules/
+
+# Ignore package-lock.json anywhere
+**/package-lock.json
+
+# Ignore environment variable files
+.env
