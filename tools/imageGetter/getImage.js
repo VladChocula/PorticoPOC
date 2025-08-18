@@ -21,7 +21,7 @@ async function getImage(address) {
 
     const encodedAddress = encodeURIComponent(address);
     const imgUrls = [
-        { url: `https://maps.googleapis.com/maps/api/streetview?size=640x640&fov=30&pitch=-10&location=${encodedAddress}&key=${apiKey}`, fov: '30'},
+        { url: `https://maps.googleapis.com/maps/api/streetview?size=2000x2000&fov=30&pitch=0&location=${encodedAddress}&key=${apiKey}`, fov: '30'},
         { url: `https://maps.googleapis.com/maps/api/streetview?size=640x640&fov=45&location=${encodedAddress}&key=${apiKey}`, fov: '45'},
         { url: `https://maps.googleapis.com/maps/api/streetview?size=640x640&fov=75&location=${encodedAddress}&key=${apiKey}`, fov: '75'},
         { url: `https://maps.googleapis.com/maps/api/streetview?size=640x640&fov=90&location=${encodedAddress}&key=${apiKey}`, fov: '90'},
